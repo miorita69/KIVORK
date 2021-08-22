@@ -100,14 +100,12 @@ body {
         flex-wrap: wrap;
     
         background-color: #2D3E50;
-        border: green solid 1px;
       }
 
       .footer__container {
         margin: 0 25px 0 0;
         padding: 50px 0 0 0;
         flex-basis: 270px;
-        outline: crimson 1px solid;
       }
 
       .footer__titles {
@@ -398,7 +396,6 @@ body {
 
   .find {
     height: 400px;
-    outline: solid 3px yellow;
   }
 
   .find__form__title {
