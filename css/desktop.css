@@ -17,28 +17,6 @@ a {
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* +++ +++ --- start NAVIGATION --- +++ +++ */ 
 .navbar {
     max-width: 1600px;
@@ -118,12 +96,13 @@ a {
     .nav-list {
         position: fixed;
         left: -100%;
-        top: 180px;
+        top: 80px;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
-        border-radius: 10px;
+        border-radius: 0 0 10px 10px;
         text-align: center;
+        z-index: 10;
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
@@ -484,3 +463,181 @@ a {
 
   }
 /* +++ +++ --- end FIND --- +++ +++ */ 
+/* +++ +++ --- start FOOTER --- +++ +++ */
+footer {
+    max-width: 1600px;
+    min-height: 290px;
+    margin: 0 auto;
+    background-color: #2D3E50;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer__container {
+    margin: 0 25px 0 0;
+    padding: 50px 0 0 0;
+    flex-basis: 270px;
+  }
+
+  .footer__titles {
+    margin: 0;
+    padding: 0;
+    color: #20D4AD;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: capitalize;
+  }
+
+  .footer__newsLatter__text {
+    margin: 0;
+    padding: 13px 0 15px 0;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .footer__newsLatter__form {
+    display: flex;
+  }
+
+  .footer__newsLatter__form__input {
+    width: 180px;
+    height: 40px;
+    margin: 0;
+    padding: 8px 0 8px 14px;
+    color: #2D3E50;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    border: #2D3E50 1px solid;
+  }
+
+  .footer__newsLatter__form__submit {
+    width: 46px;
+
+    margin: 0;
+    padding: 8px 9px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize; 
+    background-color: #20D4AD;
+    border-radius: 2px;
+  }
+
+  .footer__article-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+  }
+
+  .footer__article-item {
+      height: 48px;
+      margin: 15px 0 0 0;
+      display: flex;
+      justify-content: start;
+  }
+
+  .footer__article-item__left {
+      margin: 0 10px 0 0;
+      padding: 8px;
+      border: 1px solid #5E6C79;
+      box-sizing: border-box;
+      border-radius: 4px;
+  }
+
+  .footer__article-item__right p:first-child {
+      margin: 0;
+      padding: 0;
+      color: #FFFFFF;
+      font-family: Inter;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 13px;
+      line-height: 18px;
+  }
+
+  .footer__article-item__right p:last-child {
+      margin: 0;
+      padding: 0;
+      color: #20D4AD;
+      font-family: Inter;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 11px;
+      line-height: 20px;
+  }
+
+  .footer__tags__list {
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer__tags__item {
+    margin: 5px 5px 0 0;
+    border: #FFFFFF 1px solid;
+  }
+
+  .footer__tags__item a {
+    margin: 0;
+    padding: 4px 6px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+
+    text-decoration: none;
+  }
+
+  .footer__address {
+    margin: 10px 0 0 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: capitalize;
+  }
+
+  .footer__address span {
+    color: #20D4AD;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: capitalize;
+  }
+
+  .footer__social__list {
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer__social__item {
+    margin: 0 10px 20px 10px;
+    padding: 0;
+  }
+/* +++ +++ --- end FOOTER --- +++ +++ */
